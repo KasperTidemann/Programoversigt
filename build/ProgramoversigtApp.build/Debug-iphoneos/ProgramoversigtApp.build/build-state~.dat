@@ -1,0 +1,371 @@
+TProgramoversigtApp
+v7
+r0
+t313703034.282285
+cCheck dependencies
+cProcessPCH /var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gwcdhnvaeldwisdfuvifxbituitq/ProgramoversigtApp_Prefix.pch.gch ProgramoversigtApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/gatman/Library/MobileDevice/Provisioning Profiles/6F1A37FB-2B24-479E-8ED1-6D6E4CC23C6B.mobileprovision
+c000000004CE435D500000000000024B0
+t1290024405
+s9392
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/ProgramoversigtApp_Prefix.pch
+c000000004D02787700000000000000CD
+t1292007543
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/Shared/main.m
+c000000004D0278770000000000000186
+t1292007543
+s390
+i<UIKit/UIKit.h>
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app.dSYM
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/Info.plist
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/MainWindow_iPad.nib
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/MainWindow_iPhone.nib
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/PkgInfo
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/ProgramoversigtApp
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/ResourceRules.plist
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/main_view_background.png
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/main_view_background@2x.png
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/program_background.jpg
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPad.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPhone.o
+t1292010234
+s54444
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/IphoneMainViewController.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/IphoneProgramGuideTableViewController.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/ProgramoversigtApp
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/ProgramoversigtApp.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/AppDelegate_iPad.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/AppDelegate_iPhone.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/IphoneMainViewController.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/IphoneProgramGuideTableViewController.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/ProgramoversigtApp
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/ProgramoversigtApp.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp.xcent
+t2
+s0
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPad/AppDelegate_iPad.h
+c000000004D0278770000000000000160
+t1292007543
+s352
+i<UIKit/UIKit.h>
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPad/AppDelegate_iPad.m
+c000000004D02787700000000000006C6
+t1292007543
+s1734
+i"AppDelegate_iPad.h"
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPad/MainWindow_iPad.xib
+c000000004D02787700000000000036E6
+t1292007543
+s14054
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.h
+c000000004D0282CD00000000000003EE
+t1292010189
+s1006
+i<UIKit/UIKit.h>
+i"IphoneMainViewController.h"
+i"IphoneProgramGuideTableViewController.h"
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m
+c000000004D0282EE0000000000000B7D
+t1292010222
+s2941
+i"AppDelegate_iPhone.h"
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneMainViewController.h
+c000000004D027EEE000000000000016D
+t1292009198
+s365
+i<UIKit/UIKit.h>
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneMainViewController.m
+c000000004D027EDA000000000000067B
+t1292009178
+s1659
+i"IphoneMainViewController.h"
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneProgramGuideTableViewController.h
+c000000004D027B550000000000000130
+t1292008277
+s304
+i<UIKit/UIKit.h>
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneProgramGuideTableViewController.m
+c000000004D027B55000000000000130B
+t1292008277
+s4875
+i"IphoneProgramGuideTableViewController.h"
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/MainWindow_iPhone.xib
+c000000004D027FBF0000000000009EC7
+t1292009407
+s40647
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/main_view_background.png
+c000000004D027D190000000000039C9B
+t1292008729
+s236699
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/main_view_background@2x.png
+c000000004D027D1800000000000ECC6E
+t1292008728
+s969838
+
+N/Users/gatman/meeho/src/iphone/ProgramoversigtApp/program_background.jpg
+c000000004D027CB00000000000000D1F
+t1292008624
+s3359
+
+N/var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gptderniahnoeecqjvbtiufkzhhp/ProgramoversigtApp_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gwcdhnvaeldwisdfuvifxbituitq/ProgramoversigtApp_Prefix.pch.gch
+t1292010233
+s9983704
+
+NProgramoversigtApp-Info.plist
+c000000004D0278770000000000000569
+t1292007543
+s1385
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313703028#313703028#0(0"0(0#1#0"8618172256#0"0#
+
+CCodeSign /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313703034.017978
+e313703034.282222
+r1
+xCompileC
+xbuild/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPhone.o
+x/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone application:didFinishLaunchingWithOptions:]':
+o/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m:24: warning: incompatible Objective-C types 'struct IphoneMainViewController *', expected 'struct UIView *' when passing argument 1 of 'addSubview:' from distinct Objective-C type
+lSLF07#2@85"Compile /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m313703034#313703034#0(417"/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone application:didFinishLaunchingWithOptions:]':/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m:24: warning: incompatible Objective-C types 'struct IphoneMainViewController *', expected 'struct UIView *' when passing argument 1 of 'addSubview:' from distinct Objective-C type1(22@166"Incompatible Objective-C types 'struct IphoneMainViewController *', expected 'struct UIView *' when passing argument 1 of 'addSubview:' from distinct Objective-C type313703034#159#258#0(6@77"/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m313703022#24#0#24#0#0"0(0#0#77"/Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m8616828032#2100"    cd /Users/gatman/meeho/src/iphone/ProgramoversigtApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-generated-files.hmap -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-own-target-headers.hmap -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-all-target-headers.hmap -iquote /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-project-headers.hmap -F/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/include -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/DerivedSources/armv6 -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/DerivedSources -include /var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gwcdhnvaeldwisdfuvifxbituitq/ProgramoversigtApp_Prefix.pch -c /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m -o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/IphoneMainViewController.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneMainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/IphoneProgramGuideTableViewController.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneProgramGuideTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/main.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/IphoneMainViewController.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneMainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/IphoneProgramGuideTableViewController.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/IphoneProgramGuideTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/main.o /Users/gatman/meeho/src/iphone/ProgramoversigtApp/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPad/MainWindow_iPad.xib
+r0
+
+CCompileXIB /Users/gatman/meeho/src/iphone/ProgramoversigtApp/iPhone/MainWindow_iPhone.xib
+r0
+
+CCopyPNGFile /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/main_view_background.png main_view_background.png
+r0
+
+CCopyPNGFile /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/main_view_background@2x.png main_view_background@2x.png
+r0
+
+CCpResource build/Debug-iphoneos/ProgramoversigtApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/ProgramoversigtApp.app/program_background.jpg program_background.jpg
+r0
+
+CCreateUniversalBinary /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/ProgramoversigtApp normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app.dSYM /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/ProgramoversigtApp
+r0
+
+CLd /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv6/ProgramoversigtApp normal armv6
+r0
+
+CLd /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/Objects-normal/armv7/ProgramoversigtApp normal armv7
+r0
+
+CProcessInfoPlistFile /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/Info.plist ProgramoversigtApp-Info.plist
+r0
+
+CProcessPCH /var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gptderniahnoeecqjvbtiufkzhhp/ProgramoversigtApp_Prefix.pch.gch ProgramoversigtApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gwcdhnvaeldwisdfuvifxbituitq/ProgramoversigtApp_Prefix.pch.gch ProgramoversigtApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313703028.467021
+e313703034.017714
+r1
+xProcessPCH
+x/var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gwcdhnvaeldwisdfuvifxbituitq/ProgramoversigtApp_Prefix.pch.gch
+xProgramoversigtApp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile ProgramoversigtApp_Prefix.pch313703028#313703034#0(0"0(0#0#79"/Users/gatman/meeho/src/iphone/ProgramoversigtApp/ProgramoversigtApp_Prefix.pch8616066656#1941"    cd /Users/gatman/meeho/src/iphone/ProgramoversigtApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-generated-files.hmap -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-own-target-headers.hmap -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-all-target-headers.hmap -iquote /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp-project-headers.hmap -F/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/include -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/DerivedSources/armv6 -I/Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/DerivedSources -c /Users/gatman/meeho/src/iphone/ProgramoversigtApp/ProgramoversigtApp_Prefix.pch -o /var/folders/V0/V0irRa2kH3GCddoxCUDIvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ProgramoversigtApp_Prefix-gwcdhnvaeldwisdfuvifxbituitq/ProgramoversigtApp_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/gatman/Library/MobileDevice/Provisioning Profiles/6F1A37FB-2B24-479E-8ED1-6D6E4CC23C6B.mobileprovision" /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/ProgramoversigtApp.build/Debug-iphoneos/ProgramoversigtApp.build/ProgramoversigtApp.xcent
+r0
+
+CTouch /Users/gatman/meeho/src/iphone/ProgramoversigtApp/build/Debug-iphoneos/ProgramoversigtApp.app
+r0
+
