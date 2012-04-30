@@ -1,3 +1,5 @@
 døb
 kald
 navngiv
+omtal
+benævn

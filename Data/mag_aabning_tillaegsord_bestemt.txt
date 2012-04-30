@@ -6,3 +6,6 @@ sjaskvåde
 slappe
 vejrbidte
 vindblæste
+dampende
+visne
+forrygende

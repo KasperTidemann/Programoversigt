@@ -9,3 +9,8 @@ stang
 prik
 gnid
 stop
+kør
+parkér
+bak
+skyd
+pres
