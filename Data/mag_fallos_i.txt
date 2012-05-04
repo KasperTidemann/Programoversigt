@@ -4,3 +4,4 @@ vættelys
 spid
 slagtøj
 tornyster
+smedejern
