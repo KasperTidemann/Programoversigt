@@ -31,3 +31,6 @@ urmager
 brolægger
 astrolog
 kursist
+druide
+terapeut
+biavler
