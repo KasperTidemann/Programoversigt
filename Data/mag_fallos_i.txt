@@ -3,3 +3,4 @@ stempel
 vættelys
 spid
 slagtøj
+smedejern
