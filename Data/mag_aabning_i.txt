@@ -6,3 +6,5 @@ lysthus
 kødhorn
 kødgardin
 målområde
+lystkammer
+flæsketorv
