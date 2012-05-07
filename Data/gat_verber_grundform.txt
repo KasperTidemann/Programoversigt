@@ -12,6 +12,7 @@ drage
 drukne
 elske
 flette
+foragte
 forføre
 forulempe
 frankere
@@ -21,7 +22,6 @@ gemme
 glasere
 henkoge
 hulmursisolere
-håndtere
 imprægnere
 inhalere
 invalidere

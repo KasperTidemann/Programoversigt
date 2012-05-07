@@ -21,7 +21,6 @@ gemt
 glaseret
 henkogt
 hulmursisoleret
-håndteret
 imprægneret
 inhaleret
 invalideret

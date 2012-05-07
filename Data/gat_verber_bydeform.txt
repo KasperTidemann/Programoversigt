@@ -11,6 +11,7 @@ drag
 drukn
 elsk
 flet
+foragt
 forfør
 forulemp
 franker
