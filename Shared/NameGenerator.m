@@ -54,6 +54,7 @@ static NSString * const PARANEND = @")";
                               @"name_fornavne",
                               @"name_mellemnavne",
                               @"name_efternavne",
+                              @"name_svensk",
 							  nil];
 		
 		for (NSString *filename in fileArray) {
@@ -68,6 +69,8 @@ static NSString * const PARANEND = @")";
 		itemClasses = [[NSArray alloc] initWithObjects:
                        [NSArray arrayWithObjects:MCDJ,@"artist_mcdj_alias",nil],
                        [NSArray arrayWithObjects:MCDJ,@"efternavne",nil],
+                       [NSArray arrayWithObjects:MCDJ,@"svensk",nil],
+                       [NSArray arrayWithObjects:MCDJ,@"artist_stednavn",nil],
                        [NSArray arrayWithObjects:@"fornavne",EXCLSTART,@"mellemnavne",EXCLEND,@"efternavne",nil],
 					   nil];
 	}
@@ -77,7 +80,7 @@ static NSString * const PARANEND = @")";
 
 - (NSString *)itemString {
 	//determine the random item class
-	int classNumber = arc4random() % [itemClasses count];
+	int classNumber = 3;//arc4random() % [itemClasses count];
 	
 	NSArray *itemClass = [itemClasses objectAtIndex:classNumber];
 	
