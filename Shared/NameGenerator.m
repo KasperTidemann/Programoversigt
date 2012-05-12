@@ -80,7 +80,7 @@ static NSString * const PARANEND = @")";
 
 - (NSString *)itemString {
 	//determine the random item class
-	int classNumber = 3;//arc4random() % [itemClasses count];
+	int classNumber = arc4random() % [itemClasses count];
 	
 	NSArray *itemClass = [itemClasses objectAtIndex:classNumber];
 	

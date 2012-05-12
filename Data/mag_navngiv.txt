@@ -2,4 +2,3 @@ døb
 kald
 navngiv
 tituler
-benævn
