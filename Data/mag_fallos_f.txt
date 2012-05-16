@@ -21,3 +21,6 @@ hellebard
 flagstang
 stage
 limpind
+trefork
+pæl
+bropille
