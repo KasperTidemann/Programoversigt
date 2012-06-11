@@ -42,6 +42,7 @@ Mario
 Maximilian
 Mona
 Newton
+Ninka-Bernadette
 Pilou
 Preben
 Ruben
@@ -59,4 +60,5 @@ Volmer
 Wesley
 Wolfgang
 Xavier
+Xanthippe
 Yngwie

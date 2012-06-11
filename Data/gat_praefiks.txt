@@ -15,3 +15,5 @@ laser
 astro
 judas
 farisær
+kæle
+surrogat
