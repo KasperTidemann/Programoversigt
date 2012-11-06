@@ -26,6 +26,7 @@
 "Ravfjæs"
 "Skønno!"
 "Smukke"
+"Snaphanen"
 "Spindleren"
 "Suppemonstret"
 "Søde"

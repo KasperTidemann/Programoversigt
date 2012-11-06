@@ -141,6 +141,7 @@
 		567674A714EF037D00F7728C /* gat_suffiks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 567674A614EF037D00F7728C /* gat_suffiks.txt */; };
 		5678F96D12B3172D005EA54A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5678F96B12B3172D005EA54A /* Icon.png */; };
 		5678F96E12B3172D005EA54A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5678F96C12B3172D005EA54A /* Icon@2x.png */; };
+		5687F0A0160B90530069045E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5687F09F160B90530069045E /* Default-568h@2x.png */; };
 		569C02E012BB9401005DB6DD /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 569C02DB12BB9401005DB6DD /* Icon-Small@2x.png */; };
 		569C02E112BB9401005DB6DD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 569C02DC12BB9401005DB6DD /* Icon-72.png */; };
 		569C02E212BB9401005DB6DD /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 569C02DD12BB9401005DB6DD /* Icon-Small-50.png */; };
@@ -309,6 +310,7 @@
 		567674A614EF037D00F7728C /* gat_suffiks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gat_suffiks.txt; sourceTree = "<group>"; };
 		5678F96B12B3172D005EA54A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		5678F96C12B3172D005EA54A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5687F09F160B90530069045E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		569C02DB12BB9401005DB6DD /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		569C02DC12BB9401005DB6DD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		569C02DD12BB9401005DB6DD /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
@@ -377,6 +379,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5687F09F160B90530069045E /* Default-568h@2x.png */,
 				5638BF9214E80C26008C2187 /* Shared */,
 				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
@@ -687,7 +690,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ProgramoversigtApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -846,6 +849,7 @@
 				5672DA00154421F2007DF1A7 /* swipe_right.png in Resources */,
 				5672DA01154421F2007DF1A7 /* swipe_right@2x.png in Resources */,
 				562DA2AD15599CBA00C83E58 /* name_svensk.txt in Resources */,
+				5687F0A0160B90530069045E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
