@@ -16,6 +16,7 @@ eunukker
 evangelister
 ewokker
 farsbrød
+frenologer
 fyrster
 færger
 grækere
@@ -37,6 +38,7 @@ lotter
 marengs
 massører
 militser
+mokkasiner
 montører
 munke
 musikere

@@ -54,6 +54,7 @@ filantrop
 fjerdragt
 fjæsing
 fløjte
+frenolog
 fyrste
 færge
 fører
@@ -128,6 +129,7 @@ massør
 matros
 mejerist
 milits
+mokkasin
 monark
 montør
 mormon

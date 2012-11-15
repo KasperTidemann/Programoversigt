@@ -25,7 +25,7 @@
 	NSInteger fontSize = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? IPAD_FONT_SIZE : IPHONE_FONT_SIZE;
 	headerLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.tableView.frame.size.width, fontSize + 10)];
 	headerLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-	headerLabel.textAlignment = UITextAlignmentCenter;
+	headerLabel.textAlignment = NSTextAlignmentCenter;
 	headerLabel.backgroundColor = [UIColor clearColor];
 	headerLabel.font = [UIFont fontWithName:@"Handage AOE" size:fontSize];
 

@@ -52,6 +52,7 @@ tatovere
 telefaxe
 telefonere
 tryllebinde
+tugte
 udgive
 udjævne
 vande
