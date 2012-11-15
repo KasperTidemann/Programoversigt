@@ -39,7 +39,6 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
 	generatorArray = [[NSArray arrayWithObjects:
                        [MandrilGenerator new],
                        [GatNewsGenerator new],
@@ -63,8 +62,9 @@
     NSInteger lastUsedGenerator = [userDefaults integerForKey:@"ProgramoversigtAppLastUsedGenerator"];
     
     currentGeneratorInt = (lastUsedGenerator < [generatorArray count]) ? lastUsedGenerator : 0;
-	
+    [self.window setRootViewController:splitViewController];
 	[self.window addSubview:splitViewController.view];
+    [self.detailViewController setTableViewFrame];
 	[self.window makeKeyAndVisible];
     [self changeProgramType:self];
 	return YES;
