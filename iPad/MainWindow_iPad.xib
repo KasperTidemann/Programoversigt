@@ -226,7 +226,7 @@
 												<string key="NSFrame">{{165, 155}, {74, 95}}</string>
 												<reference key="NSSuperview" ref="629397149"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="148682374"/>
+												<reference key="NSNextKeyView" ref="669044867"/>
 												<string key="NSReuseIdentifierKey">_NS:225</string>
 												<bool key="IBUIOpaque">NO</bool>
 												<int key="IBUITag">3</int>
@@ -306,6 +306,22 @@
 											<int key="NSfFlags">16</int>
 										</object>
 									</object>
+									<object class="IBUIImageView" id="669044867">
+										<reference key="NSNextResponder" ref="401889909"/>
+										<int key="NSvFlags">-2147483351</int>
+										<string key="NSFrame">{{257, 357}, {43, 34}}</string>
+										<reference key="NSSuperview" ref="401889909"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="148682374"/>
+										<string key="NSReuseIdentifierKey">_NS:9</string>
+										<float key="IBUIAlpha">0.5</float>
+										<bool key="IBUIUserInteractionEnabled">NO</bool>
+										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+										<object class="NSCustomResource" key="IBUIImage">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">swipe_left.png</string>
+										</object>
+									</object>
 								</array>
 								<string key="NSFrameSize">{320, 748}</string>
 								<reference key="NSSuperview"/>
@@ -367,7 +383,7 @@
 								<string key="NSFrameSize">{703, 44}</string>
 								<reference key="NSSuperview" ref="1010788104"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="133870649"/>
+								<reference key="NSNextKeyView"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -765,6 +781,14 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">swipeLeftArrow</string>
+						<reference key="source" ref="322703170"/>
+						<reference key="destination" ref="669044867"/>
+					</object>
+					<int key="connectionID">153</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">dataSource</string>
 						<reference key="source" ref="562000301"/>
 						<reference key="destination" ref="913726274"/>
@@ -951,6 +975,7 @@
 							<reference ref="536470502"/>
 							<reference ref="148682374"/>
 							<reference ref="629397149"/>
+							<reference ref="669044867"/>
 						</array>
 						<reference key="parent" ref="926763209"/>
 					</object>
@@ -1048,10 +1073,10 @@
 							<reference ref="810303791"/>
 							<reference ref="562000301"/>
 							<reference ref="1034086823"/>
-							<reference ref="367201587"/>
 							<reference ref="248560171"/>
 							<reference ref="133870649"/>
 							<reference ref="1051404609"/>
+							<reference ref="367201587"/>
 						</array>
 						<reference key="parent" ref="322703170"/>
 					</object>
@@ -1082,12 +1107,6 @@
 						<reference key="object" ref="1034086823"/>
 						<reference key="parent" ref="1010788104"/>
 						<string key="objectName">Random button</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">69</int>
-						<reference key="object" ref="367201587"/>
-						<array class="NSMutableArray" key="children"/>
-						<reference key="parent" ref="1010788104"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">68</int>
@@ -1136,6 +1155,16 @@
 						<reference key="object" ref="496994342"/>
 						<reference key="parent" ref="629397149"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">69</int>
+						<reference key="object" ref="367201587"/>
+						<reference key="parent" ref="1010788104"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">151</int>
+						<reference key="object" ref="669044867"/>
+						<reference key="parent" ref="401889909"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -1159,6 +1188,7 @@
 				<real value="0.0" key="134.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="14.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="145.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="151.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="24.CustomClassName">OptionsViewController</string>
 				<string key="24.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1191,7 +1221,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">149</int>
+			<int key="maxID">153</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1306,12 +1336,22 @@
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="programGuideTableViewController">ProgramGuideTableViewController</string>
+						<string key="swipeLeftArrow">UIImageView</string>
+						<string key="swipeRightArrow">UIImageView</string>
 						<string key="toolbar">UIToolbar</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="programGuideTableViewController">
 							<string key="name">programGuideTableViewController</string>
 							<string key="candidateClassName">ProgramGuideTableViewController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="swipeLeftArrow">
+							<string key="name">swipeLeftArrow</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="swipeRightArrow">
+							<string key="name">swipeRightArrow</string>
+							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="toolbar">
 							<string key="name">toolbar</string>
@@ -1381,6 +1421,7 @@
 			<string key="ipad_options_background.png">{320, 748}</string>
 			<string key="next_button.png">{30, 30}</string>
 			<string key="prev_button.png">{30, 30}</string>
+			<string key="swipe_left.png">{43, 34}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>

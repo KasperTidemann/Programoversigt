@@ -18,6 +18,7 @@
 
 @property (nonatomic, retain) IBOutlet ProgramGuideTableViewController *programGuideTableViewController;
 @property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
+@property (nonatomic, retain) IBOutlet UIImageView *swipeLeftArrow;
 
 - (void)setTableViewFrame;
 

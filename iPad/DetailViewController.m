@@ -23,6 +23,7 @@
 @synthesize programGuideTableViewController;
 @synthesize toolbar;
 @synthesize popoverController;
+@synthesize swipeLeftArrow;
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
@@ -35,6 +36,9 @@
 
 - (void)splitViewController:(UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController:(UIPopoverController*)pc {
 
+    // show swipe arrow
+    self.swipeLeftArrow.hidden = NO;
+    
     barButtonItem.title = @"Generatortype";
     NSMutableArray *items = [[toolbar items] mutableCopy];
     [items insertObject:barButtonItem atIndex:0];
@@ -49,10 +53,11 @@
 // Called when the view is shown again in the split view, invalidating the button and popover controller.
 - (void)splitViewController:(UISplitViewController*)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
 
+    // hide swipe arrow
+    self.swipeLeftArrow.hidden = YES;
+    
     NSMutableArray *items = [[toolbar items] mutableCopy];
-//    if ([items count] != 0) {
-        [items removeObjectAtIndex:0];
-//    }
+    [items removeObjectAtIndex:0];
     [toolbar setItems:items animated:NO];
     [items release];
     self.popoverController = nil;
@@ -79,6 +84,7 @@
 						 ((AppDelegate_iPad *)[[UIApplication sharedApplication] delegate]).generatorIconView.alpha = 0.0f;
 						 ((AppDelegate_iPad *)[[UIApplication sharedApplication] delegate]).randomButton.alpha = 0.0f;
 					 }];
+    
 }
 
 - (void)setTableViewFrame {
@@ -113,6 +119,7 @@
 	[programGuideTableViewController release];
 	[toolbar release],
 	[popoverController release];
+    [swipeLeftArrow release];
     [super dealloc];
 }
 

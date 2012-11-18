@@ -88,6 +88,7 @@ static NSString * const CAPITALIZE = @"capitalize";
 							  @"gat_tillaegsord_f",
 							  @"gat_tillaegsord_fler",
 							  @"gat_tillaegsord_i",
+                              @"gat_tillaegsord-praefiks",
 							  @"gat_verber_bydeform",
                               @"gat_verber_datid",
                               @"gat_verber_grundform",
@@ -102,7 +103,7 @@ static NSString * const CAPITALIZE = @"capitalize";
 		//make item classes
         newsItemClasses = [[NSArray alloc] initWithObjects:
                            [NSArray arrayWithObjects:@"debat",FORCESIN,@"egennavne",@"vs",@"praefiks",CONCAT,@"navneord",EXCLSTART,PERIOD,EXCLSWITCH,QUESTIONMARK,EXCLEND,nil],
-                           [NSArray arrayWithObjects:@"forventning",@"tillaegsord",@"navneord",@"handling_navneform",QUESTIONMARK,nil],
+                           [NSArray arrayWithObjects:@"forventning",EXCLSTART,@"tillaegsord-praefiks",CONCAT,EXCLEND,@"tillaegsord",@"navneord",@"handling_navneform",QUESTIONMARK,nil],
                            [NSArray arrayWithObjects:@"fra_kilde",EXCLSTART,@"egennavne",EXCLSWITCH,@"navneord",EXCLEND,@"er",@"fortillaegsord",@"tillaegsord",PERIOD,nil],
                            [NSArray arrayWithObjects:@"fra_kilde",@"verber_bydeform",@"egennavne",PERIOD,nil],
                            [NSArray arrayWithObjects:@"fra_kilde",@"praefiks",CONCAT,@"materiale",EXCLSTART,HAR,@"negapositiv",@"verber_datid",EXCLSWITCH,@"verber_grundform",R,@"negapositiv",EXCLEND,FORCESIN,@"egennavne",PERIOD,nil],
@@ -114,8 +115,8 @@ static NSString * const CAPITALIZE = @"capitalize";
                            [NSArray arrayWithObjects:@"materiale_sammensat",CONCAT,@"suffiks",@"verber_grundform",S,@"omstaendighed",PERIOD,nil],
                            [NSArray arrayWithObjects:@"egennavne",@"verber_grundform",S,PERIOD,nil],
                            [NSArray arrayWithObjects:@"materiale",@"omstaendighed",QUESTIONMARK,@"negapositiv",EXCLAMATIONPOINT,nil],
-                           [NSArray arrayWithObjects:FORCESIN,@"egennavne",CONCAT,@"suffiks",@"forventning",EXCLSTART,@"negapositiv",EXCLEND,@"handling_navneform",EXCLSTART,@"omstaendighed",EXCLEND,PERIOD,nil],
-                           [NSArray arrayWithObjects:FORCESIN,@"egennavne",EXCLSTART,CONCAT,@"suffiks",EXCLEND,EXCLSTART,@"handling_nutid",EXCLSWITCH,@"handling_nutid_med_forhold",@"fortillaegsord",RANDOM,@"tillaegsord",@"navneord",EXCLEND,PERIOD,nil],
+                           [NSArray arrayWithObjects:FORCESIN,@"egennavne_f",CONCAT,@"suffiks",@"forventning",EXCLSTART,@"negapositiv",EXCLEND,@"handling_navneform",EXCLSTART,@"omstaendighed",EXCLEND,PERIOD,nil],
+                           [NSArray arrayWithObjects:FORCESIN,@"egennavne_f",EXCLSTART,CONCAT,@"suffiks",EXCLEND,EXCLSTART,@"handling_nutid",EXCLSWITCH,@"handling_nutid_med_forhold",@"fortillaegsord",RANDOM,@"tillaegsord",@"navneord",EXCLEND,PERIOD,nil],
                            [NSArray arrayWithObjects:@"antal",EXCLSTART,@"navneord_fler",EXCLEND,UD,AF,@"antal",@"forventning",EXCLSTART,IKKE,EXCLEND,@"handling_navneform",EXCLSTART,COMMA,@"begrundelser",EXCLEND,PERIOD,nil],
                            [NSArray arrayWithObjects:@"egennavne",@"forventning",EXCLSTART,IKKE,EXCLEND,@"handling_navneform",EXCLSTART,COMMA,@"begrundelser",EXCLEND,PERIOD,nil],
                            [NSArray arrayWithObjects:@"antal",UD,AF,@"antal",@"navneord_fler",@"verber_grundform",S,EXCLSTART,IKKE,EXCLEND,EXCLSTART,@"omstaendighed",EXCLEND,PERIOD,nil],
@@ -123,12 +124,12 @@ static NSString * const CAPITALIZE = @"capitalize";
                            [NSArray arrayWithObjects:@"egennavne",@"verber_grundform",R,@"antal",@"navneord_fler",@"omstaendighed",PERIOD,nil],
                            [NSArray arrayWithObjects:EXCLSTART,@"fortillaegsord",EXCLEND,@"tillaegsord",@"navneord",@"verber_grundform",S,AF,RANDOM,@"egennavne",PERIOD,nil],
                            [NSArray arrayWithObjects:@"egennavne",@"verber_grundform",S,@"omstaendighed",PERIOD,nil],
-                           [NSArray arrayWithObjects:@"antal",UD,AF,@"antal",EXCLSTART,HAR,@"verber_datid",EXCLSWITCH,@"verber_grundform",R,EXCLEND,@"tillaegsord",REPEAT,@"navneord",@"omstaendighed",PERIOD,nil],
+                           [NSArray arrayWithObjects:@"antal",UD,AF,@"antal",EXCLSTART,HAR,@"verber_datid",EXCLSWITCH,@"verber_grundform",R,EXCLEND,EXCLSTART,@"tillaegsord-praefiks",CONCAT,EXCLEND,@"tillaegsord",REPEAT,@"navneord",@"omstaendighed",PERIOD,nil],
                            [NSArray arrayWithObjects:@"materiale_sammensat",CONCAT,@"navneord",@"forventning",@"verber_grundform",S,@"omstaendighed",PERIOD,nil],
                            [NSArray arrayWithObjects:@"antal",FORCEPLU,@"navneord",AF,FORCESIN,@"materiale",@"verber_grundform",S,@"omstaendighed",PERIOD,nil],
                            [NSArray arrayWithObjects:@"forventning",@"egennavne",@"verber_grundform",RANDOM,@"materiale",QUESTIONMARK,nil],
                            [NSArray arrayWithObjects:@"egennavne",@"nutidsverber_med_forhold",EXCLSTART,@"fortillaegsord",EXCLEND,@"tillaegsord",@"navneord",PERIOD,nil],
-                           [NSArray arrayWithObjects:@"tillaegsord",@"navneord",@"handling_nutid_med_forhold",RANDOM,@"egennavne",PERIOD,nil],
+                           [NSArray arrayWithObjects:EXCLSTART,@"tillaegsord-praefiks",CONCAT,EXCLEND,@"tillaegsord",@"navneord",@"handling_nutid_med_forhold",RANDOM,@"egennavne",PERIOD,nil],
                            [NSArray arrayWithObjects:@"egennavne",@"handling_nutid",@"omstaendighed",PERIOD,nil],
                            [NSArray arrayWithObjects:@"egennavne",@"handling_nutid_med_forhold",RANDOM,@"materiale_sammensat",CONCAT,@"navneord",PERIOD,nil],
                            [NSArray arrayWithObjects:@"navneord",AF,@"materiale",@"verber_grundform",S,PERIOD,nil],
@@ -145,9 +146,9 @@ static NSString * const CAPITALIZE = @"capitalize";
                                [NSArray arrayWithObjects:@"egennavne",EXCLSTART,HAR,@"verber_datid",EXCLSWITCH,@"verber_grundform",R,EXCLEND,EXCLSTART,@"negapositiv",EXCLEND,@"antal",@"navneord_fler",@"omstaendighed",PERIOD,nil],
                                [NSArray arrayWithObjects:@"egennavne",GENITIV,RANDOM,@"materiale",@"verber_grundform",S,PERIOD,nil],
                                [NSArray arrayWithObjects:@"egennavne",@"verber_grundform",S,@"omstaendighed",PERIOD,nil],
-                               [NSArray arrayWithObjects:@"tillaegsord",@"materiale",@"verber_grundform",S,EXCLAMATIONPOINT,nil],
-                               [NSArray arrayWithObjects:@"tillaegsord",@"navneord",@"handling_nutid_med_forhold",RANDOM,@"egennavne",PERIOD,nil],
-                               [NSArray arrayWithObjects:@"tillaegsord",@"navneord",@"handling_nutid_med_forhold",RANDOM,@"egennavne",PERIOD,nil],
+                               [NSArray arrayWithObjects:EXCLSTART,@"tillaegsord-praefiks",CONCAT,EXCLEND,@"tillaegsord",@"materiale",@"verber_grundform",S,EXCLAMATIONPOINT,nil],
+                               [NSArray arrayWithObjects:EXCLSTART,@"tillaegsord-praefiks",CONCAT,EXCLEND,@"tillaegsord",@"navneord",@"handling_nutid_med_forhold",RANDOM,@"egennavne",PERIOD,nil],
+                               [NSArray arrayWithObjects:EXCLSTART,@"tillaegsord-praefiks",CONCAT,EXCLEND,@"tillaegsord",@"navneord",@"handling_nutid_med_forhold",RANDOM,@"egennavne",PERIOD,nil],
                                [NSArray arrayWithObjects:@"egennavne",@"handling_nutid",@"omstaendighed",PERIOD,nil],
                                [NSArray arrayWithObjects:@"navneord",AF,@"materiale",@"verber_grundform",S,EXCLAMATIONPOINT,nil],
                                nil];
@@ -167,7 +168,7 @@ static NSString * const CAPITALIZE = @"capitalize";
         itemClass = [breakingItemClasses objectAtIndex:classNumber];
     } else {
         classNumber = arc4random() % [newsItemClasses count];
-//        classNumber = 19;
+//        classNumber = 14; // use to try out specific sentences
         itemClass = [newsItemClasses objectAtIndex:classNumber];
     }
 	

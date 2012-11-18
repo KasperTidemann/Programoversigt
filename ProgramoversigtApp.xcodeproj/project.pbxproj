@@ -34,6 +34,7 @@
 		5620CFA814F040A600986840 /* gat_egennavne_f.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5620CFA614F040A600986840 /* gat_egennavne_f.txt */; };
 		5620CFA914F040A600986840 /* gat_egennavne_i.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5620CFA714F040A600986840 /* gat_egennavne_i.txt */; };
 		562DA2AD15599CBA00C83E58 /* name_svensk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 562DA2AC15599CBA00C83E58 /* name_svensk.txt */; };
+		56301AAB16593C9300A44F1E /* gat_tillaegsord-praefiks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 56301AAA16593C9300A44F1E /* gat_tillaegsord-praefiks.txt */; };
 		5633793C1537965A00761B55 /* icon_gatnews_hilight.png in Resources */ = {isa = PBXBuildFile; fileRef = 563379301537965A00761B55 /* icon_gatnews_hilight.png */; };
 		5633793D1537965A00761B55 /* icon_gatnews_hilight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 563379311537965A00761B55 /* icon_gatnews_hilight@2x.png */; };
 		5633793E1537965A00761B55 /* icon_gatnews_plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 563379321537965A00761B55 /* icon_gatnews_plain.png */; };
@@ -193,6 +194,7 @@
 		5620CFA614F040A600986840 /* gat_egennavne_f.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gat_egennavne_f.txt; sourceTree = "<group>"; };
 		5620CFA714F040A600986840 /* gat_egennavne_i.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gat_egennavne_i.txt; sourceTree = "<group>"; };
 		562DA2AC15599CBA00C83E58 /* name_svensk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = name_svensk.txt; sourceTree = "<group>"; };
+		56301AAA16593C9300A44F1E /* gat_tillaegsord-praefiks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gat_tillaegsord-praefiks.txt"; sourceTree = "<group>"; };
 		563379301537965A00761B55 /* icon_gatnews_hilight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_gatnews_hilight.png; sourceTree = "<group>"; };
 		563379311537965A00761B55 /* icon_gatnews_hilight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_gatnews_hilight@2x.png"; sourceTree = "<group>"; };
 		563379321537965A00761B55 /* icon_gatnews_plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_gatnews_plain.png; sourceTree = "<group>"; };
@@ -553,6 +555,7 @@
 				5638BFD514E81BA5008C2187 /* gat_tillaegsord_f.txt */,
 				5638BFD614E81BA5008C2187 /* gat_tillaegsord_fler.txt */,
 				5638BFD714E81BA5008C2187 /* gat_tillaegsord_i.txt */,
+				56301AAA16593C9300A44F1E /* gat_tillaegsord-praefiks.txt */,
 				560919D7150BFDEC0022E089 /* gat_verber_bydeform.txt */,
 				560919D8150BFDEC0022E089 /* gat_verber_datid.txt */,
 				560919DB150BFF470022E089 /* gat_verber_grundform.txt */,
@@ -850,6 +853,7 @@
 				5672DA01154421F2007DF1A7 /* swipe_right@2x.png in Resources */,
 				562DA2AD15599CBA00C83E58 /* name_svensk.txt in Resources */,
 				5687F0A0160B90530069045E /* Default-568h@2x.png in Resources */,
+				56301AAB16593C9300A44F1E /* gat_tillaegsord-praefiks.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
