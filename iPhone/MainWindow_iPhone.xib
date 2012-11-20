@@ -63,7 +63,7 @@
 				<bool key="IBUIResizesToFullScreen">YES</bool>
 			</object>
 			<object class="IBUIView" id="561269461">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUIWebView" id="264477008">
@@ -99,7 +99,6 @@
 					</object>
 				</array>
 				<string key="NSFrameSize">{320, 460}</string>
-				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="413816837"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -367,7 +366,7 @@
 					</object>
 					<object class="IBUIButton" id="226347151">
 						<reference key="NSNextResponder" ref="250409739"/>
-						<int key="NSvFlags">261</int>
+						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{81, 238}, {74, 95}}</string>
 						<reference key="NSSuperview" ref="250409739"/>
 						<reference key="NSWindow"/>
@@ -393,7 +392,7 @@
 					</object>
 					<object class="IBUIButton" id="91768868">
 						<reference key="NSNextResponder" ref="250409739"/>
-						<int key="NSvFlags">261</int>
+						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{81, 127}, {74, 95}}</string>
 						<reference key="NSSuperview" ref="250409739"/>
 						<reference key="NSWindow"/>
@@ -418,7 +417,7 @@
 					</object>
 					<object class="IBUIButton" id="238119469">
 						<reference key="NSNextResponder" ref="250409739"/>
-						<int key="NSvFlags">261</int>
+						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{163, 127}, {74, 95}}</string>
 						<reference key="NSSuperview" ref="250409739"/>
 						<reference key="NSWindow"/>
@@ -444,7 +443,7 @@
 					</object>
 					<object class="IBUIButton" id="719191051">
 						<reference key="NSNextResponder" ref="250409739"/>
-						<int key="NSvFlags">261</int>
+						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{166, 238}, {74, 95}}</string>
 						<reference key="NSSuperview" ref="250409739"/>
 						<reference key="NSWindow"/>
@@ -470,7 +469,7 @@
 					</object>
 					<object class="IBUIImageView" id="804586919">
 						<reference key="NSNextResponder" ref="250409739"/>
-						<int key="NSvFlags">288</int>
+						<int key="NSvFlags">296</int>
 						<string key="NSFrame">{{81, 2}, {156, 40}}</string>
 						<reference key="NSSuperview" ref="250409739"/>
 						<reference key="NSWindow"/>
