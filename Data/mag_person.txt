@@ -34,3 +34,5 @@ kursist
 druide
 terapeut
 biavler
+skagbo
+kippersbaron
