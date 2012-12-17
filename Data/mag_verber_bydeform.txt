@@ -2,3 +2,7 @@ smæk
 udhul
 udspil
 fyld
+rid
+strigl
+gnub
+gnav

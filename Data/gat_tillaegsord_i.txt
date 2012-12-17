@@ -8,6 +8,7 @@ bidskt
 bittert
 bredt
 drevent
+driftigt
 drilskt
 dristigt
 dyrt
@@ -85,7 +86,6 @@ nærende
 olmt
 overvægtigt
 perplekst
-plausibelt
 polstret
 porøst
 purungt

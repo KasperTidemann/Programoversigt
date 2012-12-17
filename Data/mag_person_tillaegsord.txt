@@ -1,7 +1,8 @@
-rødsprængt
+rødmosset
 stavnsbunden
 ferromagnetisk
 (s)ærlig
+driftig
 drivvåd
 fugtig
 gråsprængt
@@ -20,3 +21,5 @@ betagende
 overvældende
 frimærkesamlende
 hesteopdrættende
+skandaleramt
+autoritetstro

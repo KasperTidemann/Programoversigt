@@ -6,6 +6,7 @@ bidske
 bitre
 brede
 drevne
+driftige
 drilske
 dristige
 dystre
@@ -80,7 +81,6 @@ nærende
 olme
 overvægtige
 perplekse
-plausible
 polstrede
 porøse
 purunge

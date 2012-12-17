@@ -36,6 +36,8 @@ static NSString * const EXCLSTART = @"exclstart";
 static NSString * const EXCLEND = @"exclend";
 static NSString * const EXCLSWITCH = @"exclswitch";
 static NSString * const FORCESIN = @"forcesin";
+static NSString * const FORCE_I = @"force_i";
+static NSString * const FORCE_F = @"force_f";
 static NSString * const FORCEPLU = @"forceplu";
 static NSString * const CAPITALIZE = @"capitalize";
 
@@ -76,6 +78,7 @@ static NSString * const CAPITALIZE = @"capitalize";
                               @"mag_fallos_tillaegsord_bestemt",
                               @"mag_person",
                               @"mag_person_tillaegsord",
+                              @"mag_person_tillaegsord_bestemt",
                               @"mag_perversion",
                               @"mag_soeger",
                               @"mag_verber_bydeform",
@@ -91,6 +94,7 @@ static NSString * const CAPITALIZE = @"capitalize";
         itemClasses = [[NSArray alloc] initWithObjects:
                        [NSArray arrayWithObjects:EXCLSTART,AAH,COMMA,EXCLEND,@"indfoer",DIN,EXCLSTART,@"fallos_tillaegsord_bestemt",EXCLEND,@"fallos",I,RANDOM,MIN,EXCLSTART,@"aabning_tillaegsord_bestemt",EXCLEND,@"aabning",OG,@"navngiv",MIG,@"kaldenavn",EXCLAMATIONPOINT,nil],
                        [NSArray arrayWithObjects:@"person_tillaegsord",@"person",@"soeger",@"person_tillaegsord",@"person",TIL,@"perversion",PERIOD,nil],
+                       [NSArray arrayWithObjects:FORCE_F,@"verber_bydeform",MIG,COMMA,DIN,@"person_tillaegsord_bestemt",@"person",EXCLAMATIONPOINT,nil],
                        nil];
 		
 	}
@@ -160,6 +164,12 @@ static NSString * const CAPITALIZE = @"capitalize";
 					
 				} else if (FORCESIN == type) {
 					count = @"_en";
+					
+				} else if (FORCE_I == type) {
+					gender = @"_i";
+					
+				} else if (FORCE_F == type) {
+					gender = @"_f";
 					
 				} else if (FORCEPLU == type) {
 					count = @"_fler";

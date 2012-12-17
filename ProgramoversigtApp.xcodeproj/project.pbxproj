@@ -116,6 +116,7 @@
 		565C93A412B973E8004D34AC /* handa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 565C93A312B973E8004D34AC /* handa.ttf */; };
 		565C942012B99B1F004D34AC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C941F12B99B1F004D34AC /* DetailViewController.m */; };
 		565C942512B9A257004D34AC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C942412B9A257004D34AC /* OptionsViewController.m */; };
+		566C7E14166EB51C00AC9973 /* mag_person_tillaegsord_bestemt.txt in Resources */ = {isa = PBXBuildFile; fileRef = 566C7E13166EB51C00AC9973 /* mag_person_tillaegsord_bestemt.txt */; };
 		566E05F4153CCA1E00ECE707 /* next_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 566E05F0153CCA1E00ECE707 /* next_button.png */; };
 		566E05F5153CCA1E00ECE707 /* next_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566E05F1153CCA1E00ECE707 /* next_button@2x.png */; };
 		566E05F6153CCA1E00ECE707 /* prev_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 566E05F2153CCA1E00ECE707 /* prev_button.png */; };
@@ -286,6 +287,8 @@
 		565C941F12B99B1F004D34AC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		565C942312B9A257004D34AC /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		565C942412B9A257004D34AC /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		566C7E12166EB17500AC9973 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		566C7E13166EB51C00AC9973 /* mag_person_tillaegsord_bestemt.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mag_person_tillaegsord_bestemt.txt; sourceTree = "<group>"; };
 		566E05F0153CCA1E00ECE707 /* next_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next_button.png; path = Graphics/Buttons/next_button.png; sourceTree = "<group>"; };
 		566E05F1153CCA1E00ECE707 /* next_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "next_button@2x.png"; path = "Graphics/Buttons/next_button@2x.png"; sourceTree = "<group>"; };
 		566E05F2153CCA1E00ECE707 /* prev_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prev_button.png; path = Graphics/Buttons/prev_button.png; sourceTree = "<group>"; };
@@ -512,6 +515,7 @@
 				5638C04214E862DB008C2187 /* mag_navngiv.txt */,
 				56084F5A15001CD90020CCCF /* mag_person.txt */,
 				56084F5F150021AB0020CCCF /* mag_person_tillaegsord.txt */,
+				566C7E13166EB51C00AC9973 /* mag_person_tillaegsord_bestemt.txt */,
 				56084F63150023E90020CCCF /* mag_perversion.txt */,
 				56084F61150022A10020CCCF /* mag_soeger.txt */,
 				5638C04314E862DB008C2187 /* mag_verber_bydeform.txt */,
@@ -661,6 +665,7 @@
 				56A5D52012BEBCF000F4754A /* iphone_options_background.png */,
 				56A5D52112BEBCF000F4754A /* iphone_options_background@2x.png */,
 				569C02DF12BB9401005DB6DD /* iTunesArtwork */,
+				566C7E12166EB17500AC9973 /* iTunesArtwork@2x */,
 				5676272112B6845C0028644E /* MeehoLogo.png */,
 				5676272212B6845C0028644E /* MeehoLogo@2x.png */,
 			);
@@ -854,6 +859,7 @@
 				562DA2AD15599CBA00C83E58 /* name_svensk.txt in Resources */,
 				5687F0A0160B90530069045E /* Default-568h@2x.png in Resources */,
 				56301AAB16593C9300A44F1E /* gat_tillaegsord-praefiks.txt in Resources */,
+				566C7E14166EB51C00AC9973 /* mag_person_tillaegsord_bestemt.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
