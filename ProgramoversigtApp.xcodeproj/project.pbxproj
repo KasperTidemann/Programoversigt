@@ -36,6 +36,7 @@
 		561F2958167FD8990051442E /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F2957167FD8980051442E /* Icon-Small-50@2x.png */; };
 		561F295A167FD8A00051442E /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F2959167FD89F0051442E /* Icon-72@2x.png */; };
 		561F295C167FD8AB0051442E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F295B167FD8AB0051442E /* Icon-Small@2x.png */; };
+		561F295E167FDC960051442E /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F295D167FDC960051442E /* Default-568h@2x~iphone.png */; };
 		5620CFA814F040A600986840 /* gat_egennavne_f.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5620CFA614F040A600986840 /* gat_egennavne_f.txt */; };
 		5620CFA914F040A600986840 /* gat_egennavne_i.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5620CFA714F040A600986840 /* gat_egennavne_i.txt */; };
 		562DA2AD15599CBA00C83E58 /* name_svensk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 562DA2AC15599CBA00C83E58 /* name_svensk.txt */; };
@@ -198,6 +199,7 @@
 		561F2957167FD8980051442E /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		561F2959167FD89F0051442E /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		561F295B167FD8AB0051442E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		561F295D167FDC960051442E /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		5620CFA614F040A600986840 /* gat_egennavne_f.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gat_egennavne_f.txt; sourceTree = "<group>"; };
 		5620CFA714F040A600986840 /* gat_egennavne_i.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gat_egennavne_i.txt; sourceTree = "<group>"; };
 		562DA2AC15599CBA00C83E58 /* name_svensk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = name_svensk.txt; sourceTree = "<group>"; };
@@ -647,6 +649,7 @@
 			children = (
 				569C02E812BB992C005DB6DD /* Default~iphone.png */,
 				569C02E912BB992C005DB6DD /* Default@2x~iphone.png */,
+				561F295D167FDC960051442E /* Default-568h@2x~iphone.png */,
 				569C02EA12BB992C005DB6DD /* Default-Landscape~ipad.png */,
 				569C02EB12BB992C005DB6DD /* Default-Portrait~ipad.png */,
 			);
@@ -862,6 +865,7 @@
 				561F2958167FD8990051442E /* Icon-Small-50@2x.png in Resources */,
 				561F295A167FD8A00051442E /* Icon-72@2x.png in Resources */,
 				561F295C167FD8AB0051442E /* Icon-Small@2x.png in Resources */,
+				561F295E167FDC960051442E /* Default-568h@2x~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
