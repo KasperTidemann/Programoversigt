@@ -10,7 +10,6 @@
 
 @class ProgramGuideTableViewController;
 @class GenericGenerator;
-@class MeehoWebviewController;
 
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
@@ -28,7 +27,6 @@
     NSArray *iconButtonArray;
     NSUInteger currentGeneratorInt;
     UISwipeGestureRecognizer *swipeRecognizer;
-	MeehoWebviewController *webviewController;
 	ProgramGuideTableViewController *programGuideTableViewController;
 }
 
@@ -43,14 +41,11 @@
 @property (nonatomic, retain) IBOutlet UIButton *gatnewsButton;
 @property (nonatomic, retain) IBOutlet UIButton *nameButton;
 @property (nonatomic, retain) IBOutlet UIButton *eroticButton;
-@property (nonatomic, retain) IBOutlet MeehoWebviewController *webviewController;
 @property (nonatomic, retain) IBOutlet ProgramGuideTableViewController *programGuideTableViewController;
 
 - (IBAction)changeProgramType:(id)sender;
 - (IBAction)generateProgramGuide:(id)sender;
 - (IBAction)flipViews;
-- (IBAction)presentMeehoWebpage;
-- (IBAction)dissmissMeehoWebpage;
 
 @end
 

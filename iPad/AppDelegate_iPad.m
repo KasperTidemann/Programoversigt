@@ -14,7 +14,6 @@
 #import "OptionsViewController.h"
 #import "DetailViewController.h"
 #import "ProgramGuideTableViewController.h"
-#import "MeehoWebviewController.h"
 
 #define ANIMATIONDURATION 0.75
 
@@ -23,7 +22,6 @@
 @synthesize window;
 @synthesize generatorIconView;
 @synthesize splitViewController;
-@synthesize typeButton;
 @synthesize randomButton;
 @synthesize nextButton;
 @synthesize prevButton;
@@ -33,7 +31,6 @@
 @synthesize eroticButton;
 @synthesize optionsViewController;
 @synthesize detailViewController;
-@synthesize meehoWebViewController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -144,25 +141,6 @@
      */
 }
 
-- (IBAction)presentMeehoWebpage {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:ANIMATIONDURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.window cache:YES];
-	[splitViewController.view removeFromSuperview];
-	[self.window addSubview:meehoWebViewController.view];
-	[UIView commitAnimations];
-}
-
-- (IBAction)dissmissMeehoWebpage {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:ANIMATIONDURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.window cache:YES];
-	[meehoWebViewController.view removeFromSuperview];
-	[self.window addSubview:splitViewController.view];
-	[UIView commitAnimations];
-}
-
-
 #pragma mark -
 #pragma mark Memory management
 
@@ -172,7 +150,6 @@
     [window release];
 	[generatorIconView release];
 	[splitViewController release];
-	[typeButton release];
 	[randomButton release];
     [nextButton release];
     [prevButton release];
@@ -182,7 +159,6 @@
     [eroticButton release];
 	[optionsViewController release];
 	[detailViewController release];
-	[meehoWebViewController release];
     [super dealloc];
 }
 

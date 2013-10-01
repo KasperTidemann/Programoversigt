@@ -29,7 +29,6 @@
 @synthesize gatnewsButton;
 @synthesize nameButton;
 @synthesize eroticButton;
-@synthesize webviewController;
 @synthesize programGuideTableViewController;
 
 #pragma mark -
@@ -70,7 +69,6 @@
 	//set up views
 	mainView.frame = [[UIScreen mainScreen] applicationFrame];
 	flipView.frame = [[UIScreen mainScreen] applicationFrame];
-	webviewController.view.frame = [[UIScreen mainScreen] applicationFrame];
 	
 	[self.window addSubview:mainView];
     [self.window makeKeyAndVisible];
@@ -149,22 +147,6 @@
 	[UIView commitAnimations];
 }
 
-- (IBAction)presentMeehoWebpage {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:ANIMATIONDURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.window cache:YES];
-	[self.window addSubview:webviewController.view];
-	[UIView commitAnimations];
-}
-
-- (IBAction)dissmissMeehoWebpage {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:ANIMATIONDURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.window cache:YES];
-	[webviewController.view removeFromSuperview];
-	[UIView commitAnimations];
-}
-
 #pragma mark -
 #pragma mark Memory management
 
@@ -183,7 +165,6 @@
     [generatorArray release];
     [iconButtonArray release];
     [swipeRecognizer release];
-	[webviewController release];
 	[programGuideTableViewController release];
     [super dealloc];
 }

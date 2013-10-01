@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.tableView.backgroundColor = [UIColor clearColor];
 	
 	programItemCells = [[NSMutableArray alloc] initWithCapacity:10];
 	
@@ -54,6 +56,9 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = (ProgramItemCell *)[programItemCells objectAtIndex:indexPath.row];
+    
+    // for some reason the cell has to be given a clear background color here and not elsewhere
+    cell.backgroundColor = [UIColor clearColor];
     
     //add gesture recognizer for menu display
     UILongPressGestureRecognizer *r = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(cellWasLongPressed:)];

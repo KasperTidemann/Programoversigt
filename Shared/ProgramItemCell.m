@@ -24,7 +24,14 @@ static NSString *font = @"Handage AOE";
 		NSInteger fontSize = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? IPAD_FONT_SIZE : IPHONE_FONT_SIZE;
 		
         //get height of description text
-		CGSize textSize = [description sizeWithFont:[UIFont fontWithName:font size:fontSize] constrainedToSize:CGSizeMake(cellWidth-2*MARGIN_X, MAXFLOAT)];
+        CGRect textRect = [description boundingRectWithSize:CGSizeMake(cellWidth-2*MARGIN_X, MAXFLOAT)
+                                                    options:NSStringDrawingUsesLineFragmentOrigin
+                                                 attributes:[NSDictionary dictionaryWithObject:[UIFont fontWithName:font size:fontSize]
+                                                                                        forKey:NSFontAttributeName]
+                                                    context:nil];
+        CGSize textSize = textRect.size;
+        
+
 		
 		//give the cell a new height matching the text height
 		CGFloat cellHeight = (textSize.height < (44-2*MARGIN_Y)) ? 44 : textSize.height + 2*MARGIN_Y;
@@ -54,12 +61,22 @@ static NSString *font = @"Handage AOE";
 		NSInteger maxTimeWidth = cellWidth / 3;
 		
 		//get size of time label
-		CGSize timeSize = [time sizeWithFont:[UIFont fontWithName:font size:fontSize] constrainedToSize:CGSizeMake(maxTimeWidth, MAXFLOAT)];
+        CGRect timeRect = [time boundingRectWithSize:CGSizeMake(maxTimeWidth, MAXFLOAT)
+                                                    options:NSStringDrawingUsesLineFragmentOrigin
+                                                 attributes:[NSDictionary dictionaryWithObject:[UIFont fontWithName:font size:fontSize]
+                                                                                        forKey:NSFontAttributeName]
+                                                    context:nil];
+        CGSize timeSize = timeRect.size;
 		
 		CGFloat textWidth = cellWidth-2*MARGIN_X - LABEL_MARGIN - timeSize.width;
 		
         //get height of description text
-		CGSize textSize = [description sizeWithFont:[UIFont fontWithName:font size:fontSize] constrainedToSize:CGSizeMake(textWidth, MAXFLOAT)];
+        CGRect textRect = [description boundingRectWithSize:CGSizeMake(textWidth, MAXFLOAT)
+                                                    options:NSStringDrawingUsesLineFragmentOrigin
+                                                 attributes:[NSDictionary dictionaryWithObject:[UIFont fontWithName:font size:fontSize]
+                                                                                        forKey:NSFontAttributeName]
+                                                    context:nil];
+        CGSize textSize = textRect.size;
 		
 		//give the cell a new height matching the text height
 		CGFloat cellHeight = (timeSize.height < textSize.height) ? textSize.height : timeSize.height;
