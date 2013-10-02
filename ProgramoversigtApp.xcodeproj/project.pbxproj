@@ -387,7 +387,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				5687F09F160B90530069045E /* Default-568h@2x.png */,
 				5638BF9214E80C26008C2187 /* Shared */,
 				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
@@ -648,6 +647,7 @@
 			isa = PBXGroup;
 			children = (
 				569C02E812BB992C005DB6DD /* Default~iphone.png */,
+				5687F09F160B90530069045E /* Default-568h@2x.png */,
 				569C02E912BB992C005DB6DD /* Default@2x~iphone.png */,
 				561F295D167FDC960051442E /* Default-568h@2x~iphone.png */,
 				569C02EA12BB992C005DB6DD /* Default-Landscape~ipad.png */,
