@@ -40,6 +40,7 @@
     self.swipeLeftArrow.hidden = NO;
     
     barButtonItem.title = @"Generatortype";
+    barButtonItem.style = UIBarButtonItemStyleBordered;
     NSMutableArray *items = [[toolbar items] mutableCopy];
     [items insertObject:barButtonItem atIndex:0];
     [toolbar setItems:items animated:NO];
